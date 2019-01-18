@@ -16,6 +16,7 @@
 # Ignore master key for decrypting credentials and more.
 /core/config/master.key
 
+/core/config/database.yml
 
 #============ models ============
 models/.bundle/
