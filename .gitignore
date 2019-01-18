@@ -1,0 +1,17 @@
+.byebug_history
+
+#============ Core ============
+/core/.bundle
+
+# Ignore all logfiles and tempfiles.
+/core/log/*
+/core/tmp/*
+!/core/log/.keep
+!/core/tmp/.keep
+
+# Ignore uploaded files in development
+/core/storage/*
+!/core/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/core/config/master.key
