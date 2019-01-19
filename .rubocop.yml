@@ -1,0 +1,16 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - '**/bin/**/*'
+    - '**/Gemfile'
+    - '**/db/schema.rb'
+    - '**/*.gemspec'
+
+Style/FrozenStringLiteralComment:
+  Enabled: False
+Style/Documentation:
+  Enabled: False
+Style/ClassAndModuleChildren:
+  Enabled: False
+Metrics/LineLength:
+  Max: 150

@@ -3,7 +3,7 @@ require_relative 'boot'
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
-require "models"
+require 'models'
 
 module Dummy
   class Application < Rails::Application
@@ -21,4 +21,3 @@ module Dummy
     config.api_only = true
   end
 end
-
