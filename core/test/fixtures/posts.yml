@@ -1,0 +1,9 @@
+sport_post:
+  id: 1
+  user_id: 1
+  body: 'Sport Post'
+
+movie_post:
+  id: 2
+  user_id: 1
+  body: 'Movie Post'
